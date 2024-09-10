@@ -41,21 +41,9 @@ To set up the project locally, follow these steps:
     ```bash
     npm install
     ```
-
-3. **Configure Environment Variables:**
-    Create a `.env` file in the root directory and add the following:
-
-    ```plaintext
-    PORT=3000
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret
-    SMTP_HOST=your_smtp_host
-    SMTP_PORT=your_smtp_port
-    SMTP_USER=your_smtp_user
-    SMTP_PASS=your_smtp_password
     ```
 
-4. **Run the Application:**
+3. **Run the Application:**
     ```bash
     npm start
     ```
